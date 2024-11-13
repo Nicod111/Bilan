@@ -13,20 +13,20 @@ Ce projet permet de déployer facilement WordPress et Zabbix à l'aide de Docker
 ## Installation
 
 1.Cloner le repository :
-   git clone https://github.com/Nicod111/Bilan.git
-   cd Bilan.git
+   - git clone https://github.com/Nicod111/Bilan.git
+   - cd Bilan.git
 
 2.Exécuter le script d'installation de Docker :
-   chmod +x install_docker.sh
-   ./install_docker.sh
+   - chmod +x install_docker.sh
+   - ./install_docker.sh
 
 3.Lancer les containers Docker :
-   docker-compose up -d
+   - docker-compose up -d
 
 4.Accès aux services
-Accédez à WordPress sur http://<votre_ip>:8080 et à Zabbix sur http://<votre_ip>:8081.
+- Accédez à WordPress sur http://<votre_ip>:8080 et à Zabbix sur http://<votre_ip>:8081.
 
 
 #Structure des fichiers :
-install_docker.sh : Script pour installer Docker et Docker Compose.
-docker-compose.yml : Fichier de configuration Docker pour déployer WordPress et Zabbix.
+- install_docker.sh : Script pour installer Docker et Docker Compose.
+- docker-compose.yml : Fichier de configuration Docker pour déployer WordPress et Zabbix.
